@@ -1,0 +1,16 @@
+
+#include <windows.h>
+#include <commctrl.h>
+#include "resource.h"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// ダイアログ
+//
+
+IDD_DIALOG1 DIALOG 0, 0, 170, 62
+FONT 9, "MS UI Gothic"
+CAPTION "ダイアログ"
+BEGIN
+CONTROL         "", IDC_SLIDER1, TRACKBAR_CLASS, WS_TABSTOP | TBS_BOTH | TBS_AUTOTICKS, 5, 30, 160, 28
+END
